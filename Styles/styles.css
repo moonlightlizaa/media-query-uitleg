@@ -8,6 +8,10 @@
   display: none;
 }
 
+.homepage-laptop {
+  display: none;
+}
+
 h1 {
   font-size: 30px;
 }
@@ -32,6 +36,10 @@ p {
     display: block;
   }
 
+  .homepage-laptop {
+    display: none;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -42,5 +50,34 @@ p {
 
   p {
     font-size: 20px;
+  }
+}
+
+/* Hier begint laptop size !! */
+
+@media (min-width: 45em) {
+  .homepage {
+    display: none;
+    background-color: #aecd75;
+  }
+
+  .homepage-tablet {
+    display: none;
+  }
+
+  .homepage-laptop {
+    display: block;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .text {
+    background-color: #aecd75;
+  }
+
+  p {
+    font-size: 30px;
   }
 }
