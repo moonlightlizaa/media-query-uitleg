@@ -1,0 +1,46 @@
+/* Mobile first !!  */
+
+.homepage {
+  background-color: blueviolet;
+}
+
+.homepage-tablet {
+  display: none;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.text {
+  background-color: blueviolet;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Hier begint tablet size !! */
+
+@media (min-width: 31em) {
+  .homepage {
+    display: none;
+    background-color: #ec1589;
+  }
+
+  .homepage-tablet {
+    display: block;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .text {
+    background-color: #ec1589;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
